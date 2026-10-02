@@ -86,3 +86,32 @@ Buchtausch-App-Data-Mart/
 │   └── README.md
 │
 └── README.md
+
+
+
+-------------------------
+
+## Installation und Ausführung
+
+### Voraussetzungen
+
+Für die Ausführung des Projekts werden folgende Komponenten benötigt:
+
+- PostgreSQL
+- pgAdmin 4
+- SQL-Skript des Projekts
+
+### Datenbank erstellen
+
+1. PostgreSQL installieren und eine Verbindung zum PostgreSQL-Server herstellen.
+2. In pgAdmin eine neue Datenbank für das Projekt erstellen.
+3. Das bereitgestellte SQL-Skript in pgAdmin öffnen.
+4. Das SQL-Skript vollständig ausführen.
+5. Nach erfolgreicher Ausführung werden die Tabellen, Beziehungen, Constraints, Funktionen, Trigger und Indizes angelegt.
+6. Anschließend können die eingefügten Dummy-Daten und die implementierten SQL-Abfragen überprüft werden.
+
+### Überprüfung
+
+Nach der Ausführung des SQL-Skripts kann in pgAdmin überprüft werden, ob die Tabellen und Daten erfolgreich erstellt wurden. Zusätzlich können die dokumentierten Testfälle und SQL-Abfragen ausgeführt werden, um die Funktionalität und Datenintegrität der Datenbank zu überprüfen.
+
+Die detaillierte Dokumentation der SQL-Anweisungen, Testfälle und Ergebnisse befindet sich in den Dokumenten der jeweiligen Projektphasen.
